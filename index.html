@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IntelliScript</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="cursor"></div>
+    <div id="nav">
+    
+        <div id="nav-part3">
+            <div id="circle"></div>
+        </div>
+    </div>
+    <div id="purple">
+        
+    </div>
+    <div class="main">
+        <div class="page1">
+            
+            <h1>IntelliScript:</h1>
+            <h2>Watching long youtube videos made easy</h2>
+            <video autoplay muted loop src="https://duo-studio.co/assets/home/Duo%20Reel--Desktop-reduced.mp4"></video>
+        </div>
+        <div class="page2">
+            <h1>Why IntelliScript?</h1>
+            <div class="page2-container">
+                <div class="page2-left">
+                    <h2> Because your brain deserves a treat—swift, smart, and seamless knowledge infusion.</h2>
+                </div>
+                <div class="page2-right">
+                    <p>IntelliScript streamlines your learning experience by summarizing YouTube videos and providing concise, insightful notes. Save time, absorb information efficiently, and elevate your understanding with ease.</p>
+                    <button>Your time is precious to us!</button>
+                </div>
+            </div>
+
+        </div>
+        
+        <div class="page3">
+            <h1>What do you want to do today?</h1>
+            
+            <!-- Container for centering text boxes -->
+            <section id="video-input">
+                <h2>Enter YouTube Video URL</h2>
+                <input type="text" id="video-url" placeholder="Enter YouTube Video URL">
+                <button id="transcribe-button">Transcribe</button>
+                
+                <textarea id="video-summary-title" placeholder="Video summary..."></textarea>
+                
+                <!-- New Translated Text textarea -->
+                <textarea id="translated-text" placeholder="Video Transcription..."></textarea>
+                
+                <h3 id="video-transcription-title"></h3>
+                <textarea id="video-transcription" placeholder="Translated Text"></textarea>
+                
+                <section id="translation">
+                    <h2>Translate to Desired Language</h2>
+                    <select id="language-select">
+                        <option value="English">English</option>
+                        <option value="Hindi">Spanish</option>
+                    </select>
+                    <button id="translate-button">Translate</button>
+                    <div id="translated-text"></div>
+                </section>
+            </section>
+          
+        </div>
+        
+        <footer>
+
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+        integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+        integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
