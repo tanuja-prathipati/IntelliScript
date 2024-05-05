@@ -7,9 +7,8 @@ Original file is located at
     https://colab.research.google.com/drive/1FQWEdbZuKRKpT0AJJ-o_KJsg1j1WfQYn
 """
 
-!pip install pytube openai-whisper
-
-!pip install youtube_transcript_api
+#pip install openai-whisper
+#pip install youtube_transcript_api
 
 #Final Transcription
 from youtube_transcript_api import YouTubeTranscriptApi, TranscriptsDisabled, NoTranscriptAvailable, NoTranscriptFound, VideoUnavailable
